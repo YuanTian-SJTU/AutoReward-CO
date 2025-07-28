@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-本项目是一个基于强化学习的卫星任务分配优化系统，专注于解决卫星覆盖最大化问题。项目使用FunSearch框架，通过大语言模型（LLM）自动生成和优化任务优先级函数，以实现卫星资源的最优分配。
+本项目是一个基于强化学习的卫星任务分配优化系统，专注于解决卫星覆盖最大化问题。项目提出AutoReward-CO框架，通过大语言模型（LLM）自动生成和优化任务优先级函数，以实现卫星资源的最优分配。
 
 ## 主要功能
 
@@ -16,7 +16,7 @@
 ```
 Case1_StableTimeMaxCoverage/
 ├── main.py                    # 主程序入口
-├── specification_case.py      # 任务分配规范定义
+├── specification_StableTimeMaxCoverage.py      # 任务分配规范定义
 ├── dataset.py                 # 数据集定义（24小时模拟数据）
 ├── bin_packing_utils.py      # 装箱算法工具
 ├── implementation/            # 核心实现模块
