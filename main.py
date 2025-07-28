@@ -119,7 +119,7 @@ class LLMAPI(sampler.LLM):
                 })
                 headers = {
                     'Authorization': 'Bearer ',
-                    # 'Authorization': 'Bearer sk-CYLL2v3Eu2TxwuQE3807E9293a484024947745D2A213CfD2',
+                    # 'Authorization': 'Bearer ',
                     'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
                     'Content-Type': 'application/json'
                 }
